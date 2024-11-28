@@ -1,5 +1,3 @@
-Here's a `README.md` template for your Spotify clone project:
-
 ```markdown
 # 🎵 Spotify Clone  
 
@@ -56,10 +54,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 💬 Contact  
 For any questions or suggestions, feel free to reach out:  
-- **GitHub**: [@yourusername](https://github.com/yourusername)  
-- **Email**: yourname@example.com
+- **GitHub**: [SoftEngAliijaz](https://github.com/softengaliijaz)  
+- **Email**: softeng.aliijaz@gmail..com
 ```
-
-### Notes:
-- Replace placeholders like `yourusername`, `yourname@example.com`, and screenshot/demo links with actual details.
-- Add a `LICENSE` file if necessary.
