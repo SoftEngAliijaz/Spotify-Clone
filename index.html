@@ -9,24 +9,40 @@
     </head>
 
     <body>
+        <!-- Navigation Bar -->
         <nav>
             <ul>
-                <li class="brand"><img src="./assets/logos/spotify_logo.png" alt="_spotify">Spotify</li>
+                <li class="brand">
+                    <img src="./assets/logos/spotify_logo.png" alt="Spotify Logo">Spotify
+                </li>
                 <li>Home</li>
-                <li>About</li>
+                <li>Search</li>
+                <li>Library</li>
             </ul>
         </nav>
 
+        <!-- Main Content -->
         <div class="container">
-            <h1>Best of NCS - No Copy Right Sounds</h1>
+            <h1>Best of NCS - No Copyright Sounds</h1>
             <div class="song-list">
-
+                <div>Song 1</div>
+                <div>Song 2</div>
+                <div>Song 3</div>
+                <div>Song 4</div>
             </div>
-            <div class="song-banner"></div>
+            <div class="song-banner">
+                <h2>Now Playing</h2>
+            </div>
         </div>
+
+        <!-- Bottom Music Controls -->
         <div class="bottom">
-            <input type="range" name="range" id="myProgressBar" min="0" max="100">
-            <div class="icons"></div>
+            <div class="controls">
+                <button id="prev"><img src="./assets/icons/backward.svg" alt="Backward"></button>
+                <button id="play-pause"><img src="./assets/icons/play.svg" alt="Play"></button>
+                <button id="next"><img src="./assets/icons/forward.svg" alt="Forward"></button>
+            </div>
+            <input type="range" id="myProgressBar" min="0" max="100">
         </div>
 
         <script src="script.js"></script>
